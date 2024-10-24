@@ -1,0 +1,139 @@
+.cabecera{
+    background-position:top;
+    position: fixed ;
+    background-color:#1c1c1c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+    top: 0;
+    left: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    width: 100%;
+    height: 15%;
+    z-index: 1000;
+ }
+
+ .userl img{
+  display: flex;
+  margin: 0;
+  border-radius: 25px;
+  padding: 0;
+  transition: 300ms;
+ }
+ .userl img:hover{
+  translate: 0 -5px;
+  border-radius: 25px;
+  box-shadow: 0 0 15px rgb(172, 172, 172);
+ }
+ .username{
+ color: #333333;
+  margin-left: 15px;
+ }
+ #regis{
+   cursor: pointer;
+ }
+
+h1{
+  font-family: 'DofMaster';
+  color: rgb(255, 255, 255);
+  font-size:35px;
+  margin-left: -100px;
+  margin-top: -50px;  
+}
+
+
+.menu li{
+  
+  font-size: 15px;
+   display: inline-block;
+   padding: 0 0px;
+}
+.menu li .location {
+  font-size: 30px;
+  border-radius: 0;
+  background-color: transparent;
+  padding: 0 0;
+  border-radius: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.menu li .location:hover{
+  color: white;
+  text-shadow: 0 0 15px rgb(172, 172, 172);
+  translate: 0 -5px;
+}
+a{
+   color: azure;
+   text-decoration: none;
+   padding: 15px;
+   padding-right: 0px;
+
+}
+a:hover{
+   color: #6fffe7;
+}
+
+
+
+
+
+
+.busqueda{
+ background:fixed;
+ position: absolute;
+ left: 16%;
+ top:70%;
+ transform: translate(-50px, -50%);
+ padding: 10px;
+ 
+}
+.btn{
+  position:absolute;
+  left: 275px;
+  top: 10px;
+  
+  width: 50px;
+  height: 34px;
+  background: #1c1c1c;
+  line-height: 35px;
+  border-radius: 30px;
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid white;
+
+}
+.btn i {
+ 
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  line-height: 20px;
+  
+}
+
+.btn:hover{
+  background: #ffffff;
+  border: 2px solid #1c1c1c;
+
+}
+.btn i:hover{
+    color: #1c1c1c;
+  }
+  .busquedainput{
+  outline: none;
+  box-sizing: border-box;
+  height: 35px;
+  width: 0;
+  padding: 0 10px;
+  color: #1c1c1c;
+  border-radius: 50px;
+  font-size: 16px;
+  border: 1px solid #1c1c1c;
+  transition: all .7s ease;
+  width: 300px;
+}
+::placeholder{
+   color: gray;
+}
